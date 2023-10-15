@@ -1,4 +1,20 @@
-<!DOCTYPE html>
+@extends('layouts.app')
+@section('title')
+    Home
+@endsection
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+@endsection
+
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -137,4 +153,4 @@
             </div>
         </div>
     </body>
-</html>
+</html> --}}
